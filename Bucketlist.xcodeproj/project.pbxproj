@@ -11,6 +11,11 @@
 		7A2193672C666C31004734BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2193662C666C31004734BB /* ContentView.swift */; };
 		7A2193692C666C32004734BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2193682C666C32004734BB /* Assets.xcassets */; };
 		7A21936C2C666C32004734BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A21936B2C666C32004734BB /* Preview Assets.xcassets */; };
+		7A2193772C669BF1004734BB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2193762C669BF1004734BB /* Location.swift */; };
+		7A2193792C66A471004734BB /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2193782C66A471004734BB /* EditView.swift */; };
+		7A21937B2C66B3DB004734BB /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A21937A2C66B3DB004734BB /* Result.swift */; };
+		7A21937D2C6A5776004734BB /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A21937C2C6A5776004734BB /* ContentView-ViewModel.swift */; };
+		7A21937F2C6A8F65004734BB /* EditView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A21937E2C6A8F65004734BB /* EditView-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		7A2193662C666C31004734BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A2193682C666C32004734BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A21936B2C666C32004734BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A2193762C669BF1004734BB /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		7A2193782C66A471004734BB /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		7A21937A2C66B3DB004734BB /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		7A21937C2C6A5776004734BB /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		7A21937E2C6A8F65004734BB /* EditView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditView-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,9 @@
 		7A2193582C666C31004734BB = {
 			isa = PBXGroup;
 			children = (
+				7A21937E2C6A8F65004734BB /* EditView-ViewModel.swift */,
+				7A2193782C66A471004734BB /* EditView.swift */,
+				7A21937A2C66B3DB004734BB /* Result.swift */,
 				7A2193632C666C31004734BB /* Bucketlist */,
 				7A2193622C666C31004734BB /* Products */,
 			);
@@ -53,6 +66,8 @@
 			children = (
 				7A2193642C666C31004734BB /* BucketlistApp.swift */,
 				7A2193662C666C31004734BB /* ContentView.swift */,
+				7A2193762C669BF1004734BB /* Location.swift */,
+				7A21937C2C6A5776004734BB /* ContentView-ViewModel.swift */,
 				7A2193682C666C32004734BB /* Assets.xcassets */,
 				7A21936A2C666C32004734BB /* Preview Content */,
 			);
@@ -138,6 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A2193672C666C31004734BB /* ContentView.swift in Sources */,
+				7A21937D2C6A5776004734BB /* ContentView-ViewModel.swift in Sources */,
+				7A21937B2C66B3DB004734BB /* Result.swift in Sources */,
+				7A21937F2C6A8F65004734BB /* EditView-ViewModel.swift in Sources */,
+				7A2193772C669BF1004734BB /* Location.swift in Sources */,
+				7A2193792C66A471004734BB /* EditView.swift in Sources */,
 				7A2193652C666C31004734BB /* BucketlistApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +294,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Bucketlist/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +324,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Bucketlist/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
